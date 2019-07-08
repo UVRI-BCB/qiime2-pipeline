@@ -36,7 +36,7 @@ nextflow run qiime2-pipeline -profile base -reads 'path/to/reads' -reference 'pa
 Where ;
 * `reads`: path to paired-end reads, 
 * `reference`: path to pre-trained qiime2 classifier
-* `man`:" path to manifest file to be used for importing data into qiime2 artifact
+* `man`: path to manifest file to be used for importing data into qiime2 artifact
 * `denoiser`: string specifying denoiser to be for infering amplicon sequence variants
 
 The pipeline can also be run without installing it first. In addition to supplying the mandatory arguments, we need to specify the repository name and everything else is taken care of by nextflow.
